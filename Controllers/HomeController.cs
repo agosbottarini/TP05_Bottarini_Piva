@@ -23,17 +23,8 @@ public class HomeController : Controller
         {
             if(Escape.ResolverSala(sala,clave))
             {
-                
-                if(Escape.GetEstadoJuego() == 4)
-                {
-                    return View();
-                }
-                return View("Habitacion"+Escape.GetEstadoJuego()+1);
-            }
-            else
-            {
-                ViewBag.Error = "La respuesta fue incorrecta";
-                return View("Habitacion"+Escape.GetEstadoJuego());
+                if(Escape.GetEstadoJuego() == 4) 
+                return View("Victoria");
             }
             else 
             ViewBag.Error = "La respuesta fue incorrecta";
