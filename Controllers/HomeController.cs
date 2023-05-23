@@ -17,6 +17,15 @@ public class HomeController : Controller
         return View("Habitacion"+Escape.GetEstadoJuego());
     }
 
+    public IActionResult DondeEncontrarnos()
+    {
+        return View();
+    }
+    public IActionResult ComoContactarnos()
+    {
+        return View();
+    }
+
     public IActionResult Habitacion(int sala, string clave)
     {
         if(sala == Escape.GetEstadoJuego())
