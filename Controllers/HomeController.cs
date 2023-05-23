@@ -30,7 +30,7 @@ public class HomeController : Controller
                 
                 if(Escape.GetEstadoJuego() == 4)
                 {
-                    return View(Victoria());
+                    return View();
                 }
                 return View("Habitacion"+Escape.GetEstadoJuego()+1);
             }
