@@ -19,26 +19,16 @@ public class HomeController : Controller
 
     public IActionResult Habitacion(int sala, string clave)
     {
-        if(sala != Escape.GetEstadoJuego())
-        {
-            return View("Habitacion"+Escape.GetEstadoJuego());
-        }
-        else
+        if(sala == Escape.GetEstadoJuego())
         {
             if(Escape.ResolverSala(sala,clave))
             {
-                
-                if(Escape.GetEstadoJuego() == 4)
-                {
-                    return View(Victoria());
-                }
-                return View("Habitacion"+Escape.GetEstadoJuego()+1);
+                if(Escape.GetEstadoJuego() == 4) 
+                return View("Victoria");
             }
-            else
-            {
-                ViewBag.Error = "La respuesta fue incorrecta";
-                return View("Habitacion"+Escape.GetEstadoJuego());
-            }
+            else 
+            ViewBag.Error = "La respuesta fue incorrecta";
         }
+        return View("Habitacion"+Escape.GetEstadoJuego());
     }
 }
