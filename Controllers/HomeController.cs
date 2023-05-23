@@ -17,11 +17,11 @@ public class HomeController : Controller
         return View("Habitacion"+Escape.GetEstadoJuego());
     }
 
-    public IActionResult DondeEncontrarnos()
+    public IActionResult dondeEncontrarnos()
     {
         return View();
     }
-    public IActionResult ComoContactarnos()
+    public IActionResult comoContactarnos()
     {
         return View();
     }
