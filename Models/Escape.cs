@@ -6,7 +6,7 @@ public static class Escape
 
     private static void InicializarJuego()
     {
-        incognitasSalas[0] = "";
+        incognitasSalas[0] = "7";
         incognitasSalas[1] = "";
         incognitasSalas[2] = "";
         incognitasSalas[3] = "";
