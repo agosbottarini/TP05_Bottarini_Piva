@@ -36,7 +36,7 @@ public class HomeController : Controller
         {
             if(Escape.ResolverSala(sala,clave))
             {
-                if(Escape.GetEstadoJuego() == 4) 
+                if(Escape.GetEstadoJuego() > 4) 
                 return View("Victoria");
             }
             else 

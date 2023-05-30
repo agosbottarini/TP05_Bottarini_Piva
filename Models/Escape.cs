@@ -1,6 +1,6 @@
 public static class Escape
 {
-    static string[] incognitasSalas {get;set;}
+    static string[] incognitasSalas {get;set;} 
     static int estadoJuego {get;set;}= 1;
 
 
@@ -9,8 +9,8 @@ public static class Escape
         incognitasSalas = new string[4]; 
         incognitasSalas[0] = "7";
         incognitasSalas[1] = "38";
-        incognitasSalas[2] = "";
-        incognitasSalas[3] = "";
+        incognitasSalas[2] = "6";
+        incognitasSalas[3] = "LLAVE";
 
     }
     public static int GetEstadoJuego()
