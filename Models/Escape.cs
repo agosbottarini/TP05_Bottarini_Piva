@@ -1,13 +1,14 @@
 public static class Escape
 {
-    static string[] incognitasSalas {get;set;}= new string[4]; 
+    static string[] incognitasSalas {get;set;}
     static int estadoJuego {get;set;}= 1;
 
 
     private static void InicializarJuego()
     {
+        incognitasSalas = new string[4]; 
         incognitasSalas[0] = "7";
-        incognitasSalas[1] = "";
+        incognitasSalas[1] = "38";
         incognitasSalas[2] = "";
         incognitasSalas[3] = "";
 
