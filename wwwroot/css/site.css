@@ -12,10 +12,84 @@ html {
 
 body {
   margin: 20px 60px 0px 20px;
+  background-color: rgb(141, 242, 255);
 }
 
 footer {
   position: fixed; 
   bottom: 0; 
   margin: 10px 0px 20px 0px;
+}
+
+.indexFondo
+{
+  background-color: rgb(114, 169, 252);
+}
+
+.titulo {
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-size:xx-large ;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 70%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 30%;
+  }
+}
+
+.tutorial 
+{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:initial;
+    animation-direction: alternate;
+}
+
+.tutorialFondo
+{
+  background-color: rgb(120, 141, 125);
+}
+.creditos
+{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:initial;
+    animation-direction: alternate;
+}
+
+.Victoria
+{
+  background-color: rgb(162, 190, 252);
+  height: 100%;
+}
+
+.win
+{
+    animation-duration: 1.5s;
+    animation-name: slidein2;
+    animation-iteration-count:initial;
+    animation-direction: alternate;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 200px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@keyframes slidein2 {
+  from {
+    margin-left: 70%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 70%;
+  }
 }
