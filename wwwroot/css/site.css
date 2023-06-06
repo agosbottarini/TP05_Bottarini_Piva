@@ -10,9 +10,9 @@ html {
   }
 }
 
-body {
-  margin: 20px 60px 0px 20px;
-  background-color: rgb(141, 242, 255);
+body
+{
+  background-image: url("/wwwroot/img/fondo.jpg") !important;
 }
 
 footer {
@@ -64,9 +64,9 @@ footer {
     animation-direction: alternate;
 }
 
-.Victoria
+.victoria
 {
-  background-color: rgb(162, 190, 252);
+  background-color: beige;
   height: 100%;
 }
 
@@ -82,6 +82,12 @@ footer {
     vertical-align: middle;
 }
 
+.finalVictoria
+{
+  text-align: center;
+}
+
+
 @keyframes slidein2 {
   from {
     margin-left: 70%;
@@ -92,4 +98,15 @@ footer {
     margin-left: 0%;
     width: 70%;
   }
+}
+
+.botonJugar
+{
+  text-align: center;
+}
+
+.botonEnviar
+{
+  text-align: center;
+  font-size: larger;
 }

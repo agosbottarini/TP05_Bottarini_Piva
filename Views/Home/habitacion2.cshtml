@@ -3,9 +3,14 @@
 <div class="d-flex justify-content-center">
 <img src="/img/juegos/acertijo_sala2.jpg" class="d-block w-80" alt="...">
 </div>
-<input type="text" name="clave">
-<input type="hidden" name="sala" value="2">
-<input type="submit" value="Enviar">
+
+<br><br>
+<div class=botonEnviar>
+    <input type="text" name="clave">
+    <input type="hidden" name="sala" value="2">
+    <input type="submit" value="Enviar">
+</div>
+
 @if (@ViewBag.Error != null)
 {
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">

@@ -3,9 +3,14 @@
 <div class="d-flex justify-content-center">
 <iframe src="https://es.educaplay.com/recursos-educativos/1854388-adivinanzas_objetos_tecnologicos.html" width="1000" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-<input type="text" name="clave">
-<input type="hidden" name="sala" value="1">
-<input type="submit" value="Enviar">
+
+<br><br>
+<div class="botonEnviar">
+    <input type="text" name="clave">
+    <input type="hidden" name="sala" value="1">
+    <input type="submit" value="Enviar">
+</div>
+
 @if (@ViewBag.Error != null)
 {
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
