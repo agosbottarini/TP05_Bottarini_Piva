@@ -61,10 +61,6 @@ footer {
     animation-direction: alternate;
 }
 
-.tutorialFondo
-{
-  background-color: rgb(120, 141, 125);
-}
 .creditos
 {
     animation-duration: 3s;
@@ -73,27 +69,23 @@ footer {
     animation-direction: alternate;
 }
 
-.victoria
-{
-  background-color: beige;
-  height: 100%;
-}
-
 .win
 {
     animation-duration: 1.5s;
     animation-name: slidein2;
     animation-iteration-count:initial;
     animation-direction: alternate;
+    color: whitesmoke;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 200px;
     text-align: center;
-    vertical-align: middle;
+    vertical-align:middle;
 }
 
 .finalVictoria
 {
   text-align: center;
+  color: whitesmoke;
 }
 
 
@@ -118,4 +110,10 @@ footer {
 {
   text-align: center;
   font-size: larger;
+
 }
+.pista
+{
+  background-color: white;
+}
+
