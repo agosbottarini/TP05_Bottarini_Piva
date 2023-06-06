@@ -12,7 +12,9 @@ html {
 
 body
 {
-  background-image: url("/wwwroot/img/fondo.jpg") !important;
+  background-image: url("../img/fondos/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer {
@@ -30,6 +32,7 @@ footer {
   animation-duration: 3s;
   animation-name: slidein;
   font-size:xx-large ;
+  color: whitesmoke;
 }
 
 @keyframes slidein {
@@ -44,6 +47,12 @@ footer {
   }
 }
 
+.txtHab4
+{
+  color: whitesmoke;
+  text-align: center;
+  font-size: xx-large;
+}
 .tutorial 
 {
     animation-duration: 3s;
