@@ -25,7 +25,7 @@ public static class Escape
         {
             InicializarJuego();
         }
-
+    
         if(Sala == estadoJuego)
         {
             if(Incognita.ToUpper() == incognitasSalas[Sala -1])
