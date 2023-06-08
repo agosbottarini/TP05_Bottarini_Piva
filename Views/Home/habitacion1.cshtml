@@ -1,7 +1,7 @@
 <style> 
 body
 {
-  background-image: url("../img/fondos/fondo.jpg");
+  background-image: url("../img/fondos/fondoHab1.jpg");
   background-repeat: no repeat;
 }
 </style>
@@ -18,6 +18,11 @@ body
 <input type="submit" value="Enviar">
 </div>
 
+@{
+ DateTime ahora = DateTime.Now;
+
+}
+<p> @ahora</p>
 
 @if (@ViewBag.Error != null)
 {

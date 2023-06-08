@@ -10,7 +10,12 @@
     <input type="text" name="clave">
     <input type="hidden" name="sala" value="4">
     <input type="submit" value="Enviar">
-    <intut type ="button"  onclick="alert('Pista 1: Usualmente la llevamos en nuestro bolsillo')"> Pista 1 </button>
+    <div>
+      <intut style="color: white" type ="button"  onclick="alert('Pista 1: Usualmente la llevamos en nuestro bolsillo')" class="pista"> Pista 1 </button>
+    </div>
+    <div>
+      <intut style="color: white" type ="button"  onclick="alert('Pista 2:  Se usa para abrir o cerrar cosas')" class="pista"> Pista 2 </button>
+    </div>
 </div>
 @if (@ViewBag.Error != null)
 {
